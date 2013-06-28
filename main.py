@@ -24,7 +24,7 @@ def main(args):
 
 	if   input == "1":	buildFrames()
 	elif input == "2":	print "Build Vector Files"
-	elif input == "3":	print "Analyze Sentence"0
+	elif input == "3":	print "Analyze Sentence"
 	else:	print "Unknown Input"
 
 
