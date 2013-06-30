@@ -15,21 +15,25 @@ def analyzeSentence(sentence):
 
 def main(args):
 	# try:
-	connectToDB()
+	database = connectToDB()
 	print "\n"
 	print "1: Build Frame Files"
 	print "2: Build Vector Files"
 	print "3: Analyze Sentence"
+	print "4: Count items in DB"
+	print "5: Delete all from DB"
 	input = raw_input("\nWhat do you want to do:")
 
 	if   input == "1":	buildFrames()
 	elif input == "2":	print "Build Vector Files"
-	elif input == "3":	print "Analyze Sentence"0
+	elif input == "3":	print "Analyze Sentence"
+	elif input == "4":	print getCount(database, 'vector')
+	elif input == "5":	deleteTable(database,'vector')
 	else:	print "Unknown Input"
 
 
 
-	disconnectFromDB()
+	disconnectFromDB(database)
 	# except:
 	# 	return 1
 	# else:

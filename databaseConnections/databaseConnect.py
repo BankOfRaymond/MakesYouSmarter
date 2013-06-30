@@ -12,12 +12,23 @@ DATABASE 	= "make_you_smarter"
 
 def connectToDB():
 	database =  MySQLdb.connect(HOST,USERNAME,PASSWORD,DATABASE)
-	global database
+	return database
 	#database = MySQLdb.connect(dbConnect.HOST,dbConnect.USERNAME,dbConnect.PASSWORD,dbConnect.DATABASE)
 
-def disconnectFromDB():
+def disconnectFromDB(database):
 	database.close()
 
+def deleteTable(database, tableName):
+	cursor = database.cursor()
+	cursor.execute("DELETE from"+tableName)
+	database.commit()
+
+def getCount(database, tableName):
+	cursor = database.cursor()
+	return cursor.execute('Select count(*) from'+tableName)
+	
+def insertIntoTable(database, stringToInsert):
+	True
 
 
 
