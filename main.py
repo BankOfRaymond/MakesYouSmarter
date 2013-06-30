@@ -27,8 +27,11 @@ def main(args):
 	if   input == "1":	buildFrames()
 	elif input == "2":	print "Build Vector Files"
 	elif input == "3":	print "Analyze Sentence"
+<<<<<<< HEAD
 	elif input == "4":	print getCount(database, 'vector')
 	elif input == "5":	deleteTable(database,'vector')
+=======
+>>>>>>> 37777f0e61402bce85a7cf6c187999a465ad38a5
 	else:	print "Unknown Input"
 
 
