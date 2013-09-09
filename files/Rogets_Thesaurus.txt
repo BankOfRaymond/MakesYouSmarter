@@ -1234,7 +1234,7 @@ Roget's Thesaurus
 
  Adv. continuously &c. adj.; seriatim; in a line &c. n.; in succession, in turn; running, gradually, step by step, gradatim, at a stretch; in file, in column, in single file, in Indian file.
 
- #70. [Interrupted sequence.) Discontinuity.-- N. discontinuity; disjunction &c. 44; anacoluthon; interruption, break, fracture, flaw, fault, crack, cut; gap &c. (interval) 198; solution of continuity, caesura; broken thread; parenthesis, episode, rhapsody, patchwork; intermission; alternation &c. (periodicity) 138; dropping fire.
+ #70. (Interrupted sequence.) Discontinuity.-- N. discontinuity; disjunction &c. 44; anacoluthon; interruption, break, fracture, flaw, fault, crack, cut; gap &c. (interval) 198; solution of continuity, caesura; broken thread; parenthesis, episode, rhapsody, patchwork; intermission; alternation &c. (periodicity) 138; dropping fire.
 
  V. be discontinuous &c. adj.; alternate, intermit, sputter, stop and start, hesitate.
 
@@ -1754,7 +1754,7 @@ Roget's Thesaurus
 
  Adj. horary; hourly, annual &c. (periodical) 138.
 
- #108a. Contingent Duration.-- Adv. during pleasure, during good behavior; quandiu se bene gesserit.
+ #108a. Contingent Duration, during good behavior; quandiu se bene gesserit.
 
  #109. [Indefinite duration.] Course. -- N. corridors of time, sweep of time, vesta of time, course of time, progress of time, process of time, succesof timesion of time, lapse of time, flow of time, flux of time, stream of time, tract current of time, tide of time, march of time, step of time, flight of time; duration &c. 106.
 
@@ -3444,7 +3444,7 @@ Roget's Thesaurus
 
  thick, dumpy, squab, squat, thickset; thick as a rope.
 
- #203. Narrowness. Thinness.-- N. narrowness &c. adj.; closeness, exility; exiguity 7c. (little) 193.
+ #203. Narrowness. Thinness.-- N. narrowness &c. adj.; closeness, exility; exiguity  (little) 193.
 
  line; hair's breadth, finger's breadth; strip, streak, vein.
 
@@ -5224,7 +5224,7 @@ Roget's Thesaurus
 
  Adv. to and fro, up and down, backwards and forwards, hither and yon, seesaw, zigzag, wibble-wabble, in and out, from side to side, like buckets in a well.
 
- #315. [Irregular motion] Agitation. -- N. agitation, stir, tremor, shake, ripple, jog, jolt, jar, jerk, shock, succussion, trepidation, quiver, quaver, dance; jactitation|, quassation|; shuffling 7c. v.; twitter, flicker, flutter.
+ #315. [Irregular motion] Agitation. -- N. agitation, stir, tremor, shake, ripple, jog, jolt, jar, jerk, shock, succussion, trepidation, quiver, quaver, dance; jactitation|, quassation|; shuffling ; twitter, flicker, flutter.
 
  disquiet, pertubation, commotion, turmoil, turbulence; tumult, tumultuation|; hubbub, rout, bustle, fuss, racket, subsultus, staggers, megrims, epilepsy, fits; carphology, chorea, floccillation, the jercks, St. Vitus's dance, tilmus.
 
@@ -9976,7 +9976,7 @@ Roget's Thesaurus
 
  Adv. in plain terms, in plain words, in plain English, in plain common parlance; point-blank.
 
- #577. Ornament. -- N. ornament; floridness c. adj. turgidity, turgescence; altiloquence &c. adj.; declamation, teratiology; well-rounded periods; elegance &c. 578; orotundity.
+ #577. Ornament. -- N. ornament; floridness ,turgidity, turgescence; altiloquence &c. adj.; declamation, teratiology; well-rounded periods; elegance &c. 578; orotundity.
 
  inversion, antithesis, alliteration, paronomasio; figurativeness &c. (metaphor) 521.
 
@@ -17494,7 +17494,7 @@ Roget's Thesaurus
 
  Phr. "as chaste as unsunn'd snow" [Cymbeline]; "a soul as white as heaven" [Beaumonth & Fl.]; "'tis Chastity, my brother, Chastity" [Milton]; "to the pure all things are pure" [Shelley].
 
- #961. Impurity.-- N. impurity; uncleanness &c. (filth0 653; immodesty; grossness &c. adj.; indelicacy, indecency; impudicity; obscenity, ribaldry, Fescennine, smut, bawdry, double entente, equivoque.
+ #961. Impurity.-- N. impurity; uncleanness &c. (filth0 653;) immodesty; grossness &c. adj.; indelicacy, indecency; impudicity; obscenity, ribaldry, Fescennine, smut, bawdry, double entente, equivoque.
 
  concupiscence, lust, carnality, flesh, salacity; pruriency, lechery, lasciviency, lubricity; Sadism, sapphism.
 

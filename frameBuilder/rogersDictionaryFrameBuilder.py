@@ -35,6 +35,18 @@ def stripPunctuation(filteredFile):
 		#temp = line.translate(None,';,-.')
 		a = [m.start() for m in re.finditer(r' ',temp)]	#Locates in string the blank spaces. a[0] = 0 first positino of ' ', a[1] = 5 second position of ' '
 		temp = temp[a[1]:]
+
+		## Gets rid of () and []  and <>
+		while "(" in temp or "[" in temp or "<" in temp:
+			print temp
+			if "[" in temp:
+				temp = "".join((temp[:temp.find("[") -1], temp[temp.find("]") +1:]))
+			if "(" in temp:
+				temp = "".join((temp[:temp.find("(") -1], temp[temp.find(")") +1:]))
+			if "{" in temp:
+				temp = "".join((temp[:temp.find("{") -1], temp[temp.find("}") +1:]))
+			if "<" in temp:
+				temp = "".join((temp[:temp.find("<") -1], temp[temp.find(">") +1:]))
 		frame = re.split(';|,',temp)
 		
 		#print frame
@@ -53,11 +65,26 @@ def stripPunctuation(filteredFile):
 				itemToAppend = itemToAppend[:itemToAppend.find("-- N.")].translate(None,".")
 			if "N." in itemToAppend:
 				itemToAppend = itemToAppend[:itemToAppend.find("N.") -1]
-			if "[" in itemToAppend:
-				itemToAppend = itemToAppend[:itemToAppend.find("[") -1] + itemToAppend[itemToAppend.find("]") +1:]
+			
+			if "--" in itemToAppend:
+				itemToAppend = itemToAppend[itemToAppend.find("--")+1:]
+			if "-" in itemToAppend:
+				itemToAppend = itemToAppend[itemToAppend.find("-")+1:]
 
-			#print itemToAppend
-			curedFrame.append(itemToAppend.strip(" ").lower())
+			if "." in itemToAppend:
+				itemToAppend = itemToAppend.replace('.',"")
+			if "|" in itemToAppend:
+				itemToAppend = itemToAppend.replace('|',"")
+			if "*" in itemToAppend:
+				itemToAppend = itemToAppend.replace('*',"")
+
+			
+			#if len(itemToAppend.split()) > 0:
+			#if itemToAppend == '':
+	#		print itemToAppend, "|", item
+
+			if itemToAppend != '' and '[' not in itemToAppend:
+				curedFrame.append(itemToAppend.strip(" ").lower())
 		strippedPunctuation.append(curedFrame)
 
 	return strippedPunctuation		
