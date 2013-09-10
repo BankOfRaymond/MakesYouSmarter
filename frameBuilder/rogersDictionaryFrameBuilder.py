@@ -38,7 +38,7 @@ def stripPunctuation(filteredFile):
 
 		## Gets rid of () and []  and <>
 		while "(" in temp or "[" in temp or "<" in temp:
-			print temp
+			#print temp
 			if "[" in temp:
 				temp = "".join((temp[:temp.find("[") -1], temp[temp.find("]") +1:]))
 			if "(" in temp:
@@ -47,6 +47,7 @@ def stripPunctuation(filteredFile):
 				temp = "".join((temp[:temp.find("{") -1], temp[temp.find("}") +1:]))
 			if "<" in temp:
 				temp = "".join((temp[:temp.find("<") -1], temp[temp.find(">") +1:]))
+			temp = temp.replace('"',"")	
 		frame = re.split(';|,',temp)
 		
 		#print frame

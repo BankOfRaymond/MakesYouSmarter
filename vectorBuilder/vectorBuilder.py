@@ -20,8 +20,8 @@ class VectorBuilder():
 	
 	def parseThesaurus(self):
 		self.dbConnection.connect()
-		self.dbConnection.truncateAll()
-		
+		#self.dbConnection.truncateAll()
+
 		f = open(self.fileName, 'rb')
 		try:
 			reader = csv.reader(f)
@@ -33,7 +33,7 @@ class VectorBuilder():
 					# print 
 					for i in range(len(row)):
 						if row[i] !='' or row[i] != None:
-							self.dbConnection.upsertVector(row[i], row[:i]+row[i+1:] ,1)
+							self.dbConnection.upsertVector(row[i], row[:i]+row[i+1:] ,1.0)
 		finally:
 			f.close()
 		self.dbConnection.disconnect()

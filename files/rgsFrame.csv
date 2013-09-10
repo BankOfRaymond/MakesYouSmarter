@@ -111,7 +111,7 @@ infinity,infinitude,infiniteness,perpetuity,boundlessness v be infinite,know no 
 time,duration,period,term,stage,space,span,spell,season,the whole time,the whole period,time,course,snap
 neverness,absence of time,no time,dies non,tib's eve,greek kalends,a blue moon
 period,age,era,second,minute,hour,day,week,month,quarter,year,decade,decenniumm lustrum,quinquennium,lifetime,generation,epoch,ghurry,lunation,moon
-adv during pleasure,during good behavior,quandiu se bene gesserit
+contingent duration,during good behavior,quandiu se bene gesserit
 course,sweep of time,vesta of time,course of time,progress of time,process of time,succesof timesion of time,lapse of time,flow of time,flux of time,stream of time,tract current of time,tide of time,march of time,step of time,flight of time,duration
 diuturnity,a long time,a length of time,an age,a century,an eternity,slowness,perpetuity,blue moon,coon's age,dog's age
 transientness,transientness,evanascence,impermanence,fugacity,caducity,mortality,span,nine days' wonder,bubble,mayfly,spurt,flash in the pan,temporary arrangement,interregnum
@@ -131,7 +131,7 @@ oldness,age,antiquity,cobwebs of antiquity maturity,decline,decay,senility
 morning,morn,forenoon,am,prime,dawn,daybreak,dayspring,foreday,sunup,peep of day,break of day,aurora,first blush of the morning,first flush of the morning,prime of the morning,twilight,crepuscule,sunrise,cockcrow,cockcrowing,the small hours,the wee hours of the morning
 evening,eve,decline of day,fall of day,close of day,candlelight,candlelighting,eventide,nightfall,curfew,dusk,twilight,eleventh hour,sunset,sundown,going down of the sun,shut,dewy eve,gloaming,bedtime
 youth,juvenility,juvenescence,juniority,infancy,babyhood,childhood,boyhood,girlhood,youthhood,incunabula,minority,nonage,teens,tender age,bloom
-age,oldness,old age,advanced age,golden years,senility,senescence,years,anility,gray hairs,climacteric,grand climacteric,declining years,decrepitude,hoary age,caducity,superannuation,second childhood,second childishness,dotage,vale of years,decline of life,"""sear and yellow leaf""",threescore years and ten,green old age,ripe age,longevity,time of life
+age,oldness,old age,advanced age,golden years,senility,senescence,years,anility,gray hairs,climacteric,grand climacteric,declining years,decrepitude,hoary age,caducity,superannuation,second childhood,second childishness,dotage,vale of years,decline of life,sear and yellow leaf,threescore years and ten,green old age,ripe age,longevity,time of life
 infant,babe,baby,babe in arms,nurseling,suckling,yearling,weanling,papoose,bambino,kid,vagitus
 veteran,old man,seer,patriarch,graybeard,grandfather,grandsire,grandam,gaffer,gammer,crone,pantaloon,sexagenarian,octogenarian,nonagenarian,centenarian,old stager,dotard
 adolescence,pubescence,majority,adultism,adultness,manhood,virility,maturity full age,ripe age,flower of age,prime of life,meridian of life,spring of life man,woman,adult,no chicken
@@ -290,7 +290,7 @@ sequence,coming after,,following pursuit
 progression,progression,progressiveness,advancing,advance,advancement,ongoing,flood,tide,headway,march,rise,improvement
 regression,regression,retrocession,retrogression,retrograduation,retroaction,reculade,retreat,withdrawal,retirement,remigration,recession,recess,like motion
 propulsion,projection,propelment,vis a tergo,push,shove,ejaculate,ejection,throw,fling,toss,shot,discharge,shy
-traction,drawing,draught,pull,haul,rake,"""a long pull a strong pull and a pull all together""",towage,haulage
+traction,drawing,draught,pull,haul,rake,a long pull a strong pull and a pull all together,towage,haulage
 approach,approximation,appropinquation,access,appulse,afflux,affluxion,advent,pursuit
 recession,retirement,withdrawal,retreat,retrocession,departure,recoil,flight
 attraction,attractiveness,attractivity,drawing to,pulling towards,adduction,magnetism,gravity,attraction of gravitation
@@ -346,7 +346,7 @@ water,serum,serosity,lymph,rheum,diluent,agua,aqua,pani
 air,common air,atmospheric air,atmosphere,aerosphere
 moisture,moistness,humidity,humectation,madefaction,dew,serein,marsh,hygrometry,hygrometer
 dryness,siccity,aridity,drought,ebb tide,low water
-ocean,ocean,main,deep,brine,salt water,waves,billows,high seas,offing,great waters,watery waste,"""vasty deep""",wave,tide
+ocean,ocean,main,deep,brine,salt water,waves,billows,high seas,offing,great waters,watery waste,vasty deep,wave,tide
 land,earth,ground,dry land,terra firma
 gulf lake,gulf,gulph,bay,inlet,bight,estuary,arm of the sea,bayou,fiord,armlet,frith,firth,ostiary,mouth,lagune,lagoon,indraught,cove,creek,natural harbor,roads,strait,narrows,euripus,sound,belt,gut,kyles,continental slope,continental shelf
 plain,land,face of the country,open country,champaign country,basin,downs,waste,weary waste,desert,wild,steppe,pampas,savanna,prairie,heath,common,wold,veldt,moor,moorland,busch,plateau,campagna,alkali flat,llano,mesa,mesilla,playa,shaking prairie,trembling prairie,vega
@@ -411,7 +411,7 @@ fetor,bad,bad odor,stench,stink,foul odor,malodor,empyreuma,mustiness,rancidity,
 sound,noise,strain,accent,twang,intonation,tone,cadence,sonorousness,audibility,resonance,voice,aspirate,ideophone,rough breathing
 silence,stillness,peace,hush,lull,muteness,solemn silence,awful silence,dead silence,deathlike silence
 loudness,power,loud noise,din,blare,clang,clangor,clatter,noise,bombilation,roar,uproar,racket,hubbub,bobbery,fracas,charivari,trumpet blast,flourish of trumpets,fanfare,tintamarre,peal,swell,blast,larum,boom,resonance
-faintness,faint sound,whisper,breath,undertone,underbreath,murmur,hum,susurration,tinkle,""" still small voice"""
+faintness,faint sound,whisper,breath,undertone,underbreath,murmur,hum,susurration,tinkle, still small voice
 snap,rapping,decrepitation,crepitation,report thud,burst,explosion,discharge,detonation,firing,salvo,volley
 roll,drumming,berloque,bombination,rumbling,tattoo,dingdong,tantara,rataplan,whirr,ratatat,rubadub,pitapat,quaver,clutter,charivari,racket,cuckoo,repetition,peal of bells,devil's tattoo,reverberation
 resonance,ring,ringing,reflexion,reflection,reverberation
@@ -582,16 +582,16 @@ solecism,bad grammar,false grammar,faulty grammar,slip of the pen,slip of the to
 style,diction,phraseology,wording,manner,strain,composition,mode of expression,choice of words,mode of speech,literary power,ready pen,pen of a ready writer,command of language,authorship,la morgue litteraire
 perspicuity,perspicuousness,plain speaking,definiteness,definition,exactness,explicitness,lucidness
 obscurity,involution,hard words,ambiguity,unintelligibleness,vagueness,inexactness,what d'ye call 'em,darkness of meaning
-conciseness,brevity,""" the soul of wit",""" laconism",tacitus,ellipsis,syncope,abridgment,compression,epitome,monostich,brunch word,portmanteau word
+conciseness,brevity,the soul of wit,laconism,tacitus,ellipsis,syncope,abridgment,compression,epitome,monostich,brunch word,portmanteau word
 diffuseness,amplification,dilating,verbosity,verbiage,cloud of words,copia verborum,flow of words,looseness
 ,power,force,boldness,raciness,intellectual,force,spirit,point,antithesis,piquancy,verve,glow,fire,warmth,strong language,gravity,sententiousness,elevation,loftiness,sublimity
 feebleness
 plainness,simplicity,severity,plain terms,plain english,saxon english,household words
 ornament,floridness,turgidity,turgescence,altiloquence,declamation,teratiology,rounded periods,elegance,orotundity
 n elegance,purity,grace,ease,gracefulness,readiness,concinnity,euphony,numerosity,atticism,classicalism,classicism
-inelegance,stiffness,"""unlettered muse""",barbarism,slang,solecism,mannerism,euphuism,fustian,cacophony,words that break the teeth,words that dislocate the jaw,marinism
+inelegance,stiffness,unlettered muse,barbarism,slang,solecism,mannerism,euphuism,fustian,cacophony,words that break the teeth,words that dislocate the jaw,marinism
 voice,vocality,organ,lungs,bellows,good voice,fine voice,powerful voice,musical voice,intonation,tone of voice
-aphony,aphonia,dumbness,obmutescence,absence of voice,want of voice,dysphony,cacoopy,silence,raucity,harsh voice,unmusical voice,falsetto,"""childish treble mute""",dummy
+aphony,aphonia,dumbness,obmutescence,absence of voice,want of voice,dysphony,cacoopy,silence,raucity,harsh voice,unmusical voice,falsetto,childish treble mute,dummy
 speech,faculty of speech,locution,talk,parlance,verbal intercourse,prolation,oral communication,word of mouth,parole,palaver,prattle,effusion
 stammering,stammering,hesitation,impediment in one's speech,titubancy,traulism,whisper,lisp,drawl,tardiloquence,nasal tone,nasal accent,twang,falsetto,broken voice,broken accents,broken sentences
 loquacity,loquaciousness,talkativeness,garrulity,multiloquence,much speaking jaw,gabble,jabber,chatter,prate,prattle,cackle,clack,twaddle,twattle,rattle,caquet,caquetterie,blabber,bavardage,babble,gabble,small talk
@@ -630,7 +630,7 @@ motive,springs of action,wellsprings of action
 absence of motive,aimlessness,caprice,chance
 dissuasion,dehortation,expostulation,remonstrance,deprecation
 pretext,pretense,pretension,plea,allegation,advocation,ostensible motive,subterfuge,obtensible ground,obtensible reason,phony reason,excuse,color,gloss,guise,cover
-good,benefit,advantage,improvement,greatest good,supreme good,interest,service,behoof,behalf,weal,main chance,summum bonum,common weal,"""consummation devoutly to be wished""",gain,boot,profit,harvest
+good,benefit,advantage,improvement,greatest good,supreme good,interest,service,behoof,behalf,weal,main chance,summum bonum,common weal,consummation devoutly to be wished,gain,boot,profit,harvest
 evil,ill,harm,hurt,mischief,nuisance,machinations of the devil,pandora's box,ills that flesh is heir to
 intention,intention,intentionality,purpose,quo animo,project,undertaking,predetermination,design,ambition
 chance,lot,fate,luck,good luck,mascot
@@ -744,7 +744,7 @@ arena,field,platform,scene of action,theater,walk,course,hustings,stare,boards,a
 completion,accomplishment,achievement,fulfillment,performance,execution,despatch,dispatch,consummation,culmination,finish,conclusion,close,terminus,winding up,finale,denouement,catastrophe,issue,upshot,result,final touch,last touch,crowning touch,finishing touch,finishing stroke,last finish,coup de grace,crowning of the edifice,stone,keystone,missing link,superstructure,ne plus ultra,work done,fait accompli
 noncompletion,nonfulfillment,shortcoming,incompleteness,drawn battle,drawn game,work of penelope
 success,successfulness,speed,advance
-failure,nonsuccess,nonfulfillment,dead failure,successlessness,abortion,miscarriage,brutum fulmen,labor in vain,no go,inefficacy,inefficaciousness,vain attempt,ineffectual attempt,abortive attempt,abortive efforts,flash in the pan,"""lame and impotent conclusion""",frustration,slip 'twixt cup and lip
+failure,nonsuccess,nonfulfillment,dead failure,successlessness,abortion,miscarriage,brutum fulmen,labor in vain,no go,inefficacy,inefficaciousness,vain attempt,ineffectual attempt,abortive attempt,abortive efforts,flash in the pan,lame and impotent conclusion,frustration,slip 'twixt cup and lip
 trophy,medal,prize,palm,laurel,laurels,bays,crown,chaplet,wreath,civic crown,insignia,feather in one's cap,decoration,garland,triumphal arch,victoria cross,iron cross
 prosperity,welfare,being,affluence,success,thrift,roaring trade,good fortune,smiles of fortune,blessings,godsend
 adversity,evil,failure,bad luck,ill luck,evil luck,adverse luck,hard fortune,hard hap,hard luck,hard lot,frowns of fortune,evil dispensation,evil star,evil genius,ups and downs of life,broken fortunes,hard case,hard lines,hard life,sea of troubles,peck of troubles,hell upon earth,slough of despond
@@ -816,7 +816,7 @@ satiety,satisfaction,saturation,repletion,glut,surfeit,cloyment,satiation,wearin
 wonder,marvel,astonishment,amazement,wonderment,bewilderment,amazedness,admiration,awe,stupor,stupefaction,stound,fascination,sensation,surprise
 expectance
 prodigy,phenomenon,wonder,wonderment,marvel,miracle,monster,curiosity,lion,sight,spectacle,jeu de theatre,coup de theatre,gazingstock,sign,st elmo's fire,st elmo's light,portent
-repute,mark,name,figure,repute,reputation,good repute,high repute,note,notability,notoriety,eclat,""" the bubble reputation """,vogue,celebrity,fame,famousness,renown,popularity,aura popularis,approbation,credit,succes d'estime,prestige,talk of the town,name to conjure with
+repute,mark,name,figure,repute,reputation,good repute,high repute,note,notability,notoriety,eclat,the bubble reputation,vogue,celebrity,fame,famousness,renown,popularity,aura popularis,approbation,credit,succes d'estime,prestige,talk of the town,name to conjure with
 disrepute,discredit,ill repute,bad repute,bad name,bad odor,bad favor,ill name,ill odor,ill favor,disapprobation,ingloriousness,derogation,abasement,debasement,abjectness,degradation,dedecoration,a long farewell to all my greatness,odium,obloquy,opprobrium,ignominy
 nobility,rank,condition,distinction,optimacy,blood,pur sang,birth,high descent,order,quality,gentility,blue blood of castile,ancien regime
 commonalty,democracy,obscurity,low condition,low life,low society,low company,bourgeoisie,mass of the people,mass of society,brown jones and robinson,lower classes,humbler classes,humbler orders,vulgar herd,common herd,rank and file,hoc genus omne,the many,the general,the crowd,the people,the populace,the multitude,the million,the masses,the mobility,the peasantry,king mob,proletariat,fruges consumere nati,demos,hoi polloi,great unwashed,man in the street
@@ -865,7 +865,7 @@ gratitude,thankfulness,feeling of obligation,sense of obligation
 ingratitude,thanklessness,oblivion of benefits,unthankfulness
 forgiveness,pardon,condonation,grace,remission,absolution,amnesty,oblivion,indulgence,reprieve
 revenge,revengement,vengeance,avengement,avengeance,sweet revenge,vendetta,death feud,blood for blood retaliation,day of reckoning
-jealousy,jealousness,jaundiced eye,envious suspicion,suspicion,"eyed monster """,yellows,juno
+jealousy,jealousness,jaundiced eye,envious suspicion,suspicion,eyed monster,yellows,juno
 envy,enviousness,rivalry,jalousie de milier,illwill,spite
 right,what ought to be,what should be,fitness,summum jus
 wrong,what ought not to be,what should not be,malum in se,unreasonableness,grievance,shame

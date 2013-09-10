@@ -23,6 +23,54 @@ class DatabaseConnect():
 	def disconnect(self):
 		self.dbConnection.close()
 
+	def vectorInDB(self,vector):
+		cursor = self.dbConnection.cursor()
+		query = "".join(("SELECT vector_id from ", self.DATABASE,".",'vector WHERE vector ="',vector,'"'))
+		cursor.execute(query)
+		r = cursor.fetchall()
+		if (len(r) <1):
+			return False
+		else:
+			return r[0]
+
+	def upsertVector(self,vector,attributes, score):
+		cursor = self.dbConnection.cursor()
+		inDB = self.vectorInDB(vector)
+
+		if inDB == False:
+			query = "".join(("INSERT INTO ",self.DATABASE, '.vector (vector) VALUES ("', vector  ,'")' ))
+			cursor.execute(query)
+			vector_id = self.dbConnection.insert_id()
+			for attrib in attributes:
+				if attrib != '' and attrib != None:
+					query = "".join(( "INSERT INTO ",self.DATABASE, '.' ,'attribute (vector_id, attribute,score) VALUES (',\
+						str(int(vector_id)), ',"',attrib,'",', str(score),')'     ))
+					cursor.execute(query)
+		elif inDB:
+			for attrib in attributes:
+				if attrib != '' and attrib != None:
+					query = "".join(( "SELECT * FROM ",self.DATABASE,".attribute WHERE vector_id=",str(inDB[0]),' AND attribute="',attrib, '" '  ))
+					cursor.execute(query)
+					itemExists = cursor.fetchall()
+					if itemExists == None or itemExists == ():
+						query = "".join(( "INSERT INTO ",self.DATABASE, '.' ,'attribute (vector_id, attribute,score) VALUES (',\
+							str(inDB[0]), ',"',attrib,'",', str(score),')'     ))
+					cursor.execute(query)
+		self.dbConnection.commit()
+
+	def truncateAll(self):
+		cursor = self.dbConnection.cursor()
+		query = "TRUNCATE TABLE vector"
+		cursor.execute(query)
+		query = "TRUNCATE TABLE attribute"
+		cursor.execute(query)
+		self.dbConnection.commit()
+
+
+
+			
+
+
 	# def isInDB(self,table, inColumn, outColumn, data):
 	# 	cursor = self.dbConnection.cursor()
 	# 	query = "".join(("SELECT ",outColumn," from ", self.DATABASE,".",table, " WHERE ", inColumn, " = '",str(data),"'"))
