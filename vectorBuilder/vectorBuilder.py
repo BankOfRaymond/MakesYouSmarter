@@ -18,22 +18,36 @@ class VectorBuilder():
 		self.fileName = fileName
 		self.dbConnection = databaseConnect.DatabaseConnect() 
 	
-	def parseFile(self):
+	def parseThesaurus(self):
 		self.dbConnection.connect()
+		self.dbConnection.truncateAll()
+		
 		f = open(self.fileName, 'rb')
 		try:
 			reader = csv.reader(f)
 			for row in reader:
-				#if len(row[0].split()) > 1:
-				#print row
-				print row[0], " | ", row[1:]
+				if row[0] != '':
+					# self.upsertVector(row[0],row[1:],1)  #top 
+					# print
+					# print row
+					# print 
+					for i in range(len(row)):
+						if row[i] !='' or row[i] != None:
+							self.dbConnection.upsertVector(row[i], row[:i]+row[i+1:] ,1)
 		finally:
 			f.close()
-
-
-
-
 		self.dbConnection.disconnect()
+
+
+	# def insertVector(self, vector, attributes, score ):
+		
+	# 	inDB = self.dbConnection.vectorInDB(vector)
+	# 	print inDB,vector,attributes
+		
+	# 	# if inDB == False:
+	# 	# 	self.dbConnection.insertIntoDB(vector, )
+
+
 
 
 
@@ -41,10 +55,10 @@ class VectorBuilder():
 
 
 def main(args):
-	print args
+	#print args
 	# try:
 	vb = VectorBuilder(args[1])
-	vb.parseFile()
+	vb.parseThesaurus()
 
 
 	# except Exception, e:
